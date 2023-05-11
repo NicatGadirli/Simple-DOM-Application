@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #43345d;
+}
+
+.boxContainer {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+#box {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border: 1px solid #333;
+  transition: all 0.4s ease;
+  box-shadow: -4px 8px 234px 0px rgba(142, 142, 142, 1);
+}
+
+input {
+  margin-top: 30px;
+  margin-left: 12px;
+  height: 25px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
